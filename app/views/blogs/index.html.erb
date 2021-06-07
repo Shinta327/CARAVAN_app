@@ -46,10 +46,10 @@
           <h3 class="blog-text-heading"><%= link_to blog.title, blog_path(blog) %></h3>
           <P class="blog-date"><%= blog.created_at %></P>
           <span class="category"><%= blog.category %></span>
-      <% end %>
-      <!--ここまで変更（ループ処理）-->
         </section>
       </div>
+      <% end %>
+      <!--ここまでループ処理-->
     </div>
     <div class="pagination">
       <p><<</p>
